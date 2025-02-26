@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple App Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Title always visible at the top -->
+        <header>
+            <h1>Tim's Pret Pakket App Store</h1>
+        </header>
+
+        <!-- Modal for Welcome Message -->
+        <div id="welcomeModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close-btn">&times;</span>
+                <h2>Welkom op de Tim's Pret Pakket Appstore!</h2>
+                <p>Als je op een Game/App klikt dan opent een nieuw tabje met een download knop en die moet je rechtermuisknop doen en dan druk op "Copy Link Adres" of "Kopieer link Adres" en kopieer dit in Tim's Pret Pakket</p>
+            </div>
+        </div>
+
+        <div class="app-list">
+            <div class="app-item" data-link="https://www.mediafire.com/file/yrgqhgmxb07w25a/update.zip/file">
+                <h2>Warsow</h2>
+                <p>Een TF2 achtig schiet spel</p>
+				<p>437 MB</p>
+				<p>genres: Action, FPS, Arena, Multiplayer</p>
+            </div>
+            <div class="app-item" data-link="https://store.steampowered.com/app/1280770/Redmatch_2/?snr=1_7_7_151_150_1">
+                <h2>Redmatch 2</h2>
+                <p>Schiet spel met bonen en grapplers</p>
+				<p>1,18 GB</p>
+				<p>genre: Actie, Schieten, Boon, Parkoer</p>
+				<i>deze game is niet te downloaden met Tim's Pret Pakket</i>
+            </div>
+            <div class="app-item" data-link="https://www.mediafire.com/file/spdmydmnwgn6utu/update.zip/file">
+                <h2>Super Mario Multiplayer</h2>
+                <p>3D Super Mario in multiplayer (kaulo grappig)</p>
+				<p>41 MB</p>
+				<p>genres: 3D platformer, action, adventure</p>
+				<i>je moet het bestand hieronder nog los erbij downloaden:</i>
+				<button data-link="https://cdn.discordapp.com/attachments/1330963423663751189/1332018267686043821/Super_Mario_64_USA.z64?ex=67bfe46e&is=67be92ee&hm=931b8d9367756cfab4068ab9f773e06d099ae2b2ed518d1f4120f9cecee200e7&">Download</button>
+            </div>
+			<div class="app-item" data-link="https://www.mediafire.com/file/4p0sr7vzgddkqvr/update.zip/file">
+                <h2>Vintage Story (Alleen Multiplayer)</h2>
+                <p>Minecraft maar dan 10 keer zo moeilijk en 10 keer zo grappig</p>
+				<i>je hebt Tim nodig om dit te kunnen spelen want hij moet de server starten</i>
+				<p>771 MB</p>
+				<p>genres: Survival, Sandbox, Avonturenspel, Schietspel, Vechtspel</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
